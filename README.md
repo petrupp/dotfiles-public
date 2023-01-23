@@ -1,17 +1,3 @@
-![fish screenshot](./images/screenshot-1.png)
-
-![nvim screenshot](./images/screenshot-neovim.png)
-
-# Takuya's dotfiles
-
-**Warning**: Don’t blindly use my settings unless you know what that entails. Use at your own risk!
-
-### Looking for a Markdown note-taking app?
-
-Check out my app called [Inkdrop](https://www.inkdrop.app/)
-
-[![Inkdrop](./images/screenshot-inkdrop.png)](https://www.inkdrop.app/)
-
 ## Contents
 
 - vim (NeoVim) config
@@ -50,6 +36,14 @@ Requires [Neovim](https://neovim.io/) (>= 0.8)
 - [folke/zen-mode.nvim](https://github.com/folke/zen-mode.nvim) - Distraction-free mode
 - [iamcco/markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim) - Markdown live preview
 
+## Add
+
+- use 'github/copilot.vim'
+- use 'ctrlpvim/ctrlp.vim'
+- use 'alvan/vim-closetag'
+- use 'tpope/vim-fugitive'
+- use 'andymass/vim-matchup'
+
 ## Shell setup (macOS & Linux)
 
 - [Fish shell](https://fishshell.com/)
@@ -83,8 +77,4 @@ Watch my video tutorials:
 4. [My Fish shell workflow for coding](https://www.youtube.com/watch?v=KKxhf50FIPI)
 5. [How to set up PowerShell prompt with Oh My Posh on Windows 11](https://www.youtube.com/watch?v=5-aK2_WwrmM)
 
-## About me
 
-- [Twitter @inkdrop_app](https://twitter.com/inkdrop_app)
-- [Blog](https://blog.inkdrop.app/)
-- [My product: Inkdrop - Markdown note-taking app](https://www.inkdrop.app/)
