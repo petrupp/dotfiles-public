@@ -50,7 +50,13 @@ packer.startup(function(use)
   use 'ctrlpvim/ctrlp.vim'
   use 'alvan/vim-closetag'
   use 'tpope/vim-fugitive'
-  use 'andymass/vim-matchup'
+  use {
+    'andymass/vim-matchup',
+    setup = function()
+      -- may set any options here
+      vim.g.matchup_matchparen_offscreen = { method = "popup" }
+    end
+  }
 
   use 'lewis6991/gitsigns.nvim'
   use 'dinhhuy258/git.nvim' -- For git blame & browse
