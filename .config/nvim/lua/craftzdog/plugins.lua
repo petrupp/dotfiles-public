@@ -57,6 +57,8 @@ packer.startup(function(use)
       vim.g.matchup_matchparen_offscreen = { method = "popup" }
     end
   }
+  use 'lukas-reineke/indent-blankline.nvim'
+  use 'preservim/nerdtree'
 
   use 'lewis6991/gitsigns.nvim'
   use 'dinhhuy258/git.nvim' -- For git blame & browse
