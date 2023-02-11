@@ -43,6 +43,8 @@ Requires [Neovim](https://neovim.io/) (>= 0.8)
 - use 'alvan/vim-closetag'
 - use 'tpope/vim-fugitive'
 - use 'andymass/vim-matchup'
+- use 'lukas-reineke/indent-blankline.nvim'
+- use 'preservim/nerdtree'
 
 ## Shell setup (macOS & Linux)
 
